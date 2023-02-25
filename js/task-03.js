@@ -23,7 +23,7 @@ const makeGalleryCard = ( {url, alt,} ) => `<li class="gallery-item">
 
 const markup = images.map((el) => makeGalleryCard(el)).join('');
 
-console.log(markup);
+
 
 const listEl = document.querySelector('.gallery');
 
