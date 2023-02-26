@@ -9,11 +9,11 @@ const handleDecCounterValue = () => {
   counterEl.textContent = counterValue;
 };
 
-decrementEl.addEventListener("click", handleDecCounterValue);
-
 const handleIncCounterValue = () => {
   counterValue += 1;
   counterEl.textContent = counterValue;
 };
+
+decrementEl.addEventListener("click", handleDecCounterValue);
 
 incrementEl.addEventListener("click", handleIncCounterValue);
